@@ -1,0 +1,53 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Title {
+    color: moccasin;
+    padding: 10px 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 797px) {
+    .Title {
+        text-align: center;
+    }
+    .Header {
+        display: block;
+    }
+}
+
+.Input {
+    display: inline;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.InputField {
+    background-color: #fff;
+    width: 600px;
+    height: 45px;
+    border-radius: 20px;
+    padding: 0.5333rem;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+}
+
+nav ul li {
+    cursor: pointer;
+    margin: 20px 20px 0;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(237, 243, 151);
+    font-weight: inherit;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: lightcoral;
+    text-decoration: none;
+}

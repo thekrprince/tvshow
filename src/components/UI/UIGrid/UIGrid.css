@@ -1,0 +1,30 @@
+.UIGrid {
+    background-color: #000;
+    height: auto;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(224, 198, 198);
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.UIGrid:hover {
+    box-shadow: 0 4px 8px 0 rgba(252, 251, 251, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.UIGrid p {
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    margin: 4px;
+    background-color: #000;
+    border: 0.1px solid rgb(68, 50, 50);
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .UIGrid {
+        width: 350px;
+    }
+}

@@ -1,0 +1,13 @@
+.main {
+    border: 5px dotted burlywood;
+    margin: 17px;
+    text-align: center;
+}
+
+.wdt{  
+    width: auto !important;
+}  
+.img  
+{  
+    height: 300px !important;
+}
